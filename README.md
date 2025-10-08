@@ -9,28 +9,23 @@ The goal of this project was to explore which psychological and sociodemographic
 - Data collection: SoSci Survey (online questionnaire)
 - Methods: multiple Regression
 - Performance: R² = .77
-- Tools: R 
+- Tools: R (car, psych, jtools, olsrr, moments, lmtest, lsr)
 
 ## 🧠 Research Focus
-- Trust in science and perceived risk were the strongest predictors.
-- Political orientation showed a moderate effect.
-- The final model was interpretable using SHAP values.
+- Examined the influence of trust in democratic processes, attitudes toward public broadcasting, and political orientation.
+- Investigated how individual differences in psychological and socio-cultural variables affect vaccination willingness.
 
-## 📁 Repository Structure
+## 📈 Key Findings
+- The group of unvaccinated individuals is not as homogeneous as often portrayed. Considerable variance in political attitudes — on average politically neutral.
+- Common denominator: a general critical stance toward institutions.
+- Sociocultural differences: Vaccinated participants tend to be more left-leaning, show greater trust in democratic processes, and hold more positive attitudes toward public media.
+- Individuality-related variables showed only small but meaningful effects.
 
-covid19-vaccine-acceptance/
-│
-├── data/
-│ ├── covid_raw.csv # Dataset with missing values
-│ ├── covid_clean.csv # Cleaned dataset
-│
-├── code/
-│ ├── covid_analysis.R # Main analysis script
-│
-├── documentation/
-│ ├── variable_codebook.pdf # Variable definitions
-│ ├── questionnaire.pdf # Full survey (SoSci)
-│ ├── report.pdf # Summary report
+## 👤 Author
 
-
+Moritz Konstantin Kuhn
+Data Science & Psychology
+📧 [moritzk.kuhn@gmx.com
+]
+🔗 [https://www.linkedin.com/in/moritz-konstantin-kuhn]
 
